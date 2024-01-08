@@ -21,8 +21,8 @@ console.log("3. Salad - $4.49");
 console.log("4. Pasta - $7.29");
 console.log("5. Soda - $1.99");
 
-let choice = 2;
-let itemName, itemPrice;
+var choice = 2;
+var itemName, itemPrice;
 
 switch (choice) {
     case 1:

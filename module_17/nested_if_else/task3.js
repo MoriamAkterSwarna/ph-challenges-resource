@@ -9,9 +9,9 @@ Create a JavaScript program that calculates the final price of items in a shoppi
 
 */
 
-const totalPurchaseAmount = 120;
-const discountRate1 = 0.1; // 10% discount for totalAmount >= 50
-const discountRate2 = 0.2; // 20% discount for totalAmount >= 100
+var totalPurchaseAmount = 120;
+var discountRate1 = 0.1; // 10% discount for totalAmount >= 50
+var discountRate2 = 0.2; // 20% discount for totalAmount >= 100
 
 if (totalAmount < 0) {
     console.log("Invalid total amount. Please enter a valid amount.");
@@ -24,12 +24,12 @@ else if (totalAmount < 50) {
 
 else if (totalAmount < 100) {
     // Apply a 10% discount for totalAmount >= 50 and < 100
-    const discountedPrice = totalAmount - (totalAmount * discountRate1);
+    var discountedPrice = totalAmount - (totalAmount * discountRate1);
     console.log('The final price is ' + discountedPrice.toFixed(2) + ' with a 10% discount.');
 }
 
 else {
     // Apply a 20% discount for totalAmount >= 100
-    const discountedPrice = totalAmount - (totalAmount * discountRate2);
+    var discountedPrice = totalAmount - (totalAmount * discountRate2);
     console.log('The final price is ' + discountedPrice.toFixed(2) + ' with a 20% discount.');
 }

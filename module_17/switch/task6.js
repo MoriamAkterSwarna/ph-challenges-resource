@@ -17,8 +17,8 @@ console.log("1. Administrator");
 console.log("2. Moderator");
 console.log("3. User");
 
-let userRole = 2;
-let accessLevel;
+var userRole = 2;
+var accessLevel;
 
 switch (userRole) {
     case 1:

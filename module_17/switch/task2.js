@@ -1,6 +1,6 @@
 /***
 
-The task is to take a student's score as input and use a switch statement to determine the corresponding letter grade based on the following criteria:
+The task is to take a student's score as input and use a switch statement to determine the corresponding varter grade based on the following criteria:
 
     A: 90-100
     B: 80-89
@@ -10,8 +10,8 @@ The task is to take a student's score as input and use a switch statement to det
 
  */
 
-let score = 85;
-let grade;
+var score = 85;
+var grade;
 
 switch (true) {
     case score >= 90 && score <= 100:

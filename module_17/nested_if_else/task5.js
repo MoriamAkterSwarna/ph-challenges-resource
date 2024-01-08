@@ -10,10 +10,10 @@ Create a JavaScript program that calculates the ticket price for a movie theater
 
 */
 
-const age = 25;
-const student = false;
+var age = 25;
+var student = false;
 
-const basePrice = 10;
+var basePrice = 10;
 
 if (age < 0 || age > 120) {
     return "Invalid age. Please give a valid age.";
@@ -21,12 +21,12 @@ if (age < 0 || age > 120) {
 
 if (age < 12 || age >= 60) {
     // Children (age < 12) and senior citizens (age >= 60) get a discount
-    const discountedPrice = basePrice - 2;
+    var discountedPrice = basePrice - 2;
     console.log('The ticket price is ' + discountedPrice);
 
 } else if (student) {
     // Students get a discount as well
-    const studentDiscountPrice = basePrice - 3;
+    var studentDiscountPrice = basePrice - 3;
     console.log('The ticket price is ' + studentDiscountPrice);
 
 } else {

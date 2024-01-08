@@ -12,7 +12,7 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
-const score = 85;
+var score = 85;
 
 // Use nested if-else statements to determine the grade
 if (score >= 90 && score <= 100) {

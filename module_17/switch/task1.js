@@ -4,8 +4,8 @@ Create a simple traffic light simulator. The user will input the color of the tr
 
  */
 
-let trafficLightColor = 'Green'.toLowerCase();
-let action;
+var trafficLightColor = 'Green'.toLowerCase();
+var action;
 
 switch (trafficLightColor) {
     case 'red':

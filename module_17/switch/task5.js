@@ -4,8 +4,8 @@ Create a simple day-of-week converter. The user will input a number representing
 
  */
 
-let dayNumber = 3;
-let dayName;
+var dayNumber = 3;
+var dayName;
 
 switch (dayNumber) {
     case 1:

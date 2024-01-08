@@ -2,12 +2,12 @@
 
 Write a JavaScript program that takes a number as input and checks if it is even or odd. If the number is even, the program should print "The number is even." If the number is odd, the program should print "The number is odd."
 
-    - Do using if-else
+    - Do using if-elses
     - replace if-else with ternary
 
  */
 
-let number = 55.66;
+var number = 55.66;
 
 // Using if-else statement
 number = parseInt(number);

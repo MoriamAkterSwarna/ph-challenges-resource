@@ -7,7 +7,7 @@ Write a JavaScript program that takes a day of the week as input (e.g., Monday, 
 
  */
 
-let dayOfWeek = 'Monday';
+var dayOfWeek = 'Monday';
 dayOfWeek = dayOfWeek.toLowerCase();
 
 // Using if-else statement

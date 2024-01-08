@@ -7,8 +7,8 @@ Write a JavaScript program that takes two numbers as input and checks if they ar
 
  */
 
-let num1 = 55;
-let num2 = 65;
+var num1 = 55;
+var num2 = 65;
 
 // Using if-else statement
 if (!isNaN(num1) && !isNaN(num2)) {

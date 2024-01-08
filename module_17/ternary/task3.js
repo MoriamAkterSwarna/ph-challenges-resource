@@ -7,9 +7,9 @@ Write a JavaScript program that takes three numbers as input and finds the large
 
  */
 
-let num1 = 15;
-let num2 = 17;
-let num3 = 8;
+var num1 = 15;
+var num2 = 17;
+var num3 = 8;
 
 // Using if-else statement
 if (num1 >= num2 && num1 >= num3) {

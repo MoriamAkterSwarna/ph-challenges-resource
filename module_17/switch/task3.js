@@ -4,10 +4,10 @@ Create a basic calculator that performs addition, subtraction, multiplication, o
 
 */
 
-let num1 = 25;
-let num2 = 10
-let operation = '+' //Enter the operation (+, -, *, /);
-let result;
+var num1 = 25;
+var num2 = 10
+var operation = '+' //Enter the operation (+, -, *, /);
+var result;
 
 switch (operation) {
     case '+':

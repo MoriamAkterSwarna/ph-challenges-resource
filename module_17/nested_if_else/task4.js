@@ -6,17 +6,17 @@ Create a simple JavaScript program that converts temperatures between Celsius an
 
  */
 
-const value = 25;
-const unit = "C"; // "C" for Celsius, "F" for Fahrenheit
+var value = 25;
+var unit = "C"; // "C" for Celsius, "F" for Fahrenheit
 
 if (unit === "C") {
     // Convert Celsius to Fahrenheit
-    const fahrenheit = (value * 9 / 5) + 32;
+    var fahrenheit = (value * 9 / 5) + 32;
     console.log(value + ' °C is equal to ' + fahrenheit.toFixed(2) + '°F.');
 
 } else if (unit === "F") {
     // Convert Fahrenheit to Celsius
-    const celsius = (value - 32) * 5 / 9;
+    var celsius = (value - 32) * 5 / 9;
     console.log(value + ' °F is equal to ' + celsius.toFixed(2) + '°C.');
 
 } else {

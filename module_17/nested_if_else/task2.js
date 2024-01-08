@@ -12,14 +12,14 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 */
 
-const weight = 70; // in kilograms
-const height = 1.75; // in meters
+var weight = 70; // in kilograms
+var height = 1.75; // in meters
 
 if (weight < 0 || height < 0) {
     return "Invalid. Please give non-negative values for weight and height.";
 }
 
-const bmi = weight / (height * height);
+var bmi = weight / (height * height);
 
 // Determine the health category based on BMI
 if (bmi < 18.5) {
