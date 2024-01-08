@@ -14,7 +14,7 @@ for (var i = 1; i <= n; i++) {
 
 /***
 
-Subtask-1:
+Subtask-2:
 
 Find all the even numbers from 1 to 100.
 
